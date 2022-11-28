@@ -218,7 +218,7 @@ technologies = {
 		start_year = 1939
 		folder = {
 			name = sov_armour_folder
-			position = { x = 0 y = 5 }
+			position = { x = 0 y = 4 }
 		}
 		
 		categories = {

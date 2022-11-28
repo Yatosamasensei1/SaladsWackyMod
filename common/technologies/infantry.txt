@@ -311,7 +311,7 @@ technologies = {
 	infantry_at = {
 
 		category_all_infantry = {
-			defense = 0.10
+			defense = 0.05
 		}
 		
 		path = {
