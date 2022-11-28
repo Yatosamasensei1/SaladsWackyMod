@@ -30,3 +30,4 @@ List of all updates to TFB
 - defensive doctrine only gives 20% entrenchment
 - offensive doctrine now gives 5% attack
 - tank bonusses on arty tech
+- Added 2 tile Africa
