@@ -31,3 +31,4 @@ List of all updates to TFB
 - offensive doctrine now gives 5% attack
 - tank bonusses on arty tech
 - Added 2 tile Africa
+- supply company merger
