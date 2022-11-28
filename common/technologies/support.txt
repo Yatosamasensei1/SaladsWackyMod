@@ -1297,7 +1297,7 @@ technologies = {
 		field_hospital = {
 			casualty_trickleback = 0.15
 			experience_loss_factor = -0.10
-			max_strength = 0.2
+			max_strength = 10
 		}
 		
 		path = {
@@ -1344,7 +1344,7 @@ technologies = {
 		field_hospital = {
 			casualty_trickleback = 0.15
 			experience_loss_factor = -0.10
-			max_strength = 0.2
+			max_strength = 10
 		}
 		path = {
 			leads_to_tech = tech_field_hospital4
@@ -1389,7 +1389,7 @@ technologies = {
 		field_hospital = {
 			casualty_trickleback = 0.15
 			experience_loss_factor = -0.10
-			max_strength = 0.2
+			max_strength = 10
 		}
 
 		research_cost = 1.5

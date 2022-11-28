@@ -328,7 +328,7 @@ technologies = {
 
 		category_tanks = {
 			max_organisation = 3
-			max_strength = 1
+			max_strength = 3
 		}
 		max_planning = 0.05
 		
