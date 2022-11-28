@@ -690,6 +690,7 @@ prince_of_eriteria = {
 		
 		field_marshal_modifier = {
 			org_loss_when_moving = -0.1
+			offence = 0.05
 		}
 		
 		slot = army_chief
@@ -712,7 +713,7 @@ prince_of_eriteria = {
 		}
 		cost = 1000
 		field_marshal_modifier = {
-			max_dig_in_factor = 0.30
+			max_dig_in_factor = 0.20
 		}
 		slot = army_chief
 		specialist_advisor_trait = army_chief_entrenchment_1

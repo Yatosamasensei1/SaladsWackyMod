@@ -67,6 +67,9 @@ technologies = {
 		medium_sp_anti_air_brigade  = {
 			air_attack = 0.1
 		}
+		pack_antitank_brigade = {
+			hard_attack = 0.10
+		}
 		enable_equipment_modules = {
 			ship_anti_air_2
 			tank_small_gun_2
@@ -270,6 +273,18 @@ technologies = {
 		}		
 		mot_anti_tank_brigade = {
 			hard_attack = 0.05
+		}	
+		light_armor = {
+			hard_attack = 0.05
+			soft_attack = 0.05
+		}	
+		medium_armor = {
+			hard_attack = 0.05
+			soft_attack = 0.05
+		}	
+		heavy_armor = {
+			hard_attack = 0.05
+			soft_attack = 0.05
 		}
 		enable_equipment_modules = {
 			tank_art_gun_1
@@ -323,6 +338,18 @@ technologies = {
 		}		
 		mot_anti_tank_brigade = {
 			hard_attack = 0.05
+		}	
+		light_armor = {
+			hard_attack = 0.05
+			soft_attack = 0.05
+		}	
+		medium_armor = {
+			hard_attack = 0.05
+			soft_attack = 0.05
+		}	
+		heavy_armor = {
+			hard_attack = 0.05
+			soft_attack = 0.05
 		}
 		path = {
 			leads_to_tech = artillery5
@@ -491,6 +518,18 @@ technologies = {
 		}
 		mot_anti_tank_brigade = {
 			hard_attack = 0.05
+		}	
+		light_armor = {
+			hard_attack = 0.05
+			soft_attack = 0.05
+		}	
+		medium_armor = {
+			hard_attack = 0.05
+			soft_attack = 0.05
+		}	
+		heavy_armor = {
+			hard_attack = 0.05
+			soft_attack = 0.05
 		}
 		path = {
 			leads_to_tech = artillery4
@@ -610,6 +649,18 @@ technologies = {
 		}
 		mot_anti_tank_brigade = {
 			hard_attack = 0.05
+		}	
+		light_armor = {
+			hard_attack = 0.05
+			soft_attack = 0.05
+		}	
+		medium_armor = {
+			hard_attack = 0.05
+			soft_attack = 0.05
+		}	
+		heavy_armor = {
+			hard_attack = 0.05
+			soft_attack = 0.05
 		}
 		enable_equipment_modules = {
 			tank_med_cs_gun_3
