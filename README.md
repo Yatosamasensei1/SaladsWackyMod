@@ -31,3 +31,5 @@ List of all updates to TFB
 - offensive doctrine now gives 5% attack
 - tank bonusses on arty tech
 - Added 2 tile Africa
+1.03
+- infantry at techs now give 10% hard attack
