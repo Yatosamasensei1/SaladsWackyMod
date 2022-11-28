@@ -24,7 +24,6 @@ List of all updates to TFB
 - Finland Nerfs, but more manpower
 1.02
 - made it a 30 width mod
-- less terrain penalties
 - infantry at techs now give 5% defence
 - small caliber guns 1 now gives 10% pack at hard attack
 - ROM_fortify_the_borders spirit now functions like a fortification engineer
