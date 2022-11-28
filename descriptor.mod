@@ -1,9 +1,9 @@
-version="1.0"
+version="1.02"
 tags={
 	"Historical"
 	"Gameplay"
 	"Balance"
 }
-name="Basement NSB version"
+name="Salads Wacky Mod"
 supported_version="1.11.*"
-remote_file_id="2883986478"
+remote_file_id="2858409935"
