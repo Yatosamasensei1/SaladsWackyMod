@@ -33,8 +33,8 @@ sub_units = {
 		can_be_parachuted = yes
 
 		# Important Ability
-		supply_consumption_factor = -0.2
-		fuel_consumption_factor = -0.05
+		supply_consumption_factor = -0.3
+		fuel_consumption_factor = -0.10
 
 		own_equipment_fuel_consumption_mult = 0.0 # no fuel use
 		
@@ -45,11 +45,12 @@ sub_units = {
 		}
 
 		need = {
-			support_equipment = 10
+			support_equipment = 25
 			motorized_equipment = 20
-			horse_equipment = 40
+			horse_equipment = 100
 		}
-
+		
+		same_support_type = logistics_company
 	}
 	
 	logistics_company_mot = {
@@ -85,8 +86,8 @@ sub_units = {
 		can_be_parachuted = yes
 
 		# Important Ability
-		supply_consumption_factor = -0.30
-		fuel_consumption_factor = -0.05
+		supply_consumption_factor = -0.50
+		fuel_consumption_factor = -0.10
 
 		own_equipment_fuel_consumption_mult = 0.0 # no fuel use
 		
@@ -96,65 +97,9 @@ sub_units = {
 		}
 
 		need = {
-			support_equipment = 15
+			support_equipment = 25
 			motorized_equipment = 60
+			horse_equipment = 40
 		}
 		
-		same_support_type = logistics_company_mot
-
-	}
-	
-	logistics_company_horse = {
-		sprite = infantry
-		map_icon_category = infantry
-		priority = 0
-		ai_priority = 0
-		active = no
-
-		type = {
-			infantry
-			support
-		}
-		
-		group = support
-		
-		categories = {
-			category_support_battalions
-			category_army
-		}
-	
-		combat_width = 0
-	
-		#Size Definitions
-		max_strength = 1
-		max_organisation = 10	
-		default_morale = 0.3
-		manpower = 400
-		training_time = 120
-		
-		maximum_speed = 2.0
-
-		#Misc Abilities
-		weight = 0.1
-		can_be_parachuted = yes
-
-		# Important Ability
-		supply_consumption_factor = -0.1
-		fuel_consumption_factor = -0.05
-
-		own_equipment_fuel_consumption_mult = 0.0 # no fuel use
-		
-		essential = {
-			support_equipment
-			horse_equipment
-		}
-
-		need = {
-			support_equipment = 15
-			horse_equipment = 60
-		}
-		
-		same_support_type = logistics_company_mot
-
-	}
-}
+		same_support_type = logistics_company
