@@ -103,3 +103,7 @@ sub_units = {
 		}
 		
 		same_support_type = logistics_company
+
+	}
+	
+	
