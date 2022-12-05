@@ -29,6 +29,7 @@ List of all updates to TFB
 - offensive doctrine now gives 5% attack
 - tank bonusses on arty tech
 - Added 2 tile Africa
+- infantry at techs now give 10% hard attack
 - supply company merger
 - Removed super heavy tanks
 - Supply hub IC reduced from 8000 to 6000
