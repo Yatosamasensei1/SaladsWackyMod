@@ -1,7 +1,6 @@
 # SaladsWackyMod - TO DO:
 
 List of all updates to TFB
-1.01
 - added Free Templates
 - added nopause
 - disabled stability impact of spy propaganda
@@ -22,7 +21,6 @@ List of all updates to TFB
 - france attack bosnus against vichy and germany as well as core attack and defence bonus propanda nerfed by 10%
 - free france supremacy of the soldier inf bonusses halfed
 - Finland Nerfs, but more manpower
-1.02
 - made it a 30 width mod
 - infantry at techs now give 5% defence
 - small caliber guns 1 now gives 10% pack at hard attack
@@ -32,3 +30,4 @@ List of all updates to TFB
 - tank bonusses on arty tech
 - Added 2 tile Africa
 - supply company merger
+- Removed super heavy tanks
