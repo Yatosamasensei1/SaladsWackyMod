@@ -31,3 +31,4 @@ List of all updates to TFB
 - Added 2 tile Africa
 - supply company merger
 - Removed super heavy tanks
+- Supply hub IC reduced from 8000 to 6000
