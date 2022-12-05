@@ -1753,49 +1753,49 @@ political_actions = {
 
 operations = {
 
-	invent_the_sht = {
-
-		icon = GFX_decision_generic_research
-
-		available = {
-			original_tag = JAP
-			has_completed_focus = JAP_tank_lessons
-		}
-
-		visible = {
-			AND = {
-				original_tag = JAP
-				has_completed_focus = JAP_tank_lessons
-			}
-		}
-
-		cost = 50
-		fire_only_once = yes
-
-		ai_will_do = {
-		    factor = 0
-		}
-		visible = {
-			OR = {
-			original_tag = JAP
-			has_completed_focus = JAP_tank_lessons
-			is_debug = yes
-			}
-		}
-		days_remove = 180
-		modifier = {
-		    civilian_factory_use = 10
-		}
-		remove_effect = {
-		   JAP = {
-		   	   set_technology = { heavy_tank_1 = 1 popup = no }
-		       set_technology = { jap_secret_super_heavy = 1 }
-		   }
-		}
-		complete_effect = {
-		    set_country_flag = { flag = GER_wunderwaffe_flag value = 1 days = 180 }
-		}
-	}
+#	invent_the_sht = {
+#
+#		icon = GFX_decision_generic_research
+#
+#		available = {
+#			original_tag = JAP
+#			has_completed_focus = JAP_tank_lessons
+#		}
+#
+#		visible = {
+#			AND = {
+#				original_tag = JAP
+#				has_completed_focus = JAP_tank_lessons
+#			}
+#		}
+#
+#		cost = 50
+#		fire_only_once = yes
+#
+#		ai_will_do = {
+#		    factor = 0
+#		}
+#		visible = {
+#			OR = {
+#			original_tag = JAP
+#			has_completed_focus = JAP_tank_lessons
+#			is_debug = yes
+#			}
+#		}
+#		days_remove = 180
+#		modifier = {
+#		    civilian_factory_use = 10
+#		}
+#		remove_effect = {
+#		   JAP = {
+#		   	   set_technology = { heavy_tank_1 = 1 popup = no }
+#		       set_technology = { jap_secret_super_heavy = 1 }
+#		   }
+#		}
+#		complete_effect = {
+#		    set_country_flag = { flag = GER_wunderwaffe_flag value = 1 days = 180 }
+#		}
+#	}
 
 	
 	# SOV_border_war_JAP = {
