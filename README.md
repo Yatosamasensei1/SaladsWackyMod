@@ -32,3 +32,4 @@ List of all updates to TFB
 - supply company merger
 - Removed super heavy tanks
 - Supply hub IC reduced from 8000 to 6000
+- Field marshal offensive doctrine attack increased from 5% to 10%
