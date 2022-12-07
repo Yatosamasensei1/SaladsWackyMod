@@ -35,3 +35,4 @@ List of all updates to TFB
 - Supply hub IC reduced from 8000 to 6000
 - Field marshal offensive doctrine attack increased from 5% to 10%
 - Buffed Assault Pioneers company to pre Basement TFB values
+- Soviet air changes from Basement reverted
