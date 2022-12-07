@@ -36,3 +36,4 @@ List of all updates to TFB
 - Field marshal offensive doctrine attack increased from 5% to 10%
 - Buffed Assault Pioneers company to pre Basement TFB values
 - Soviet air changes from Basement reverted
+- Finland core stats and manpower bug fix
