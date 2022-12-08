@@ -289,45 +289,7 @@ characters={
 		}
 	}
 
-	ITA_aludose={
-		name=ITA_aludose
-		portraits={
-			army={
-				small="GFX_idea_aludose"
-			}
-			army={
-				large=GFX_ITA_aludose
-			}
-		}
-
-		advisor={
-			slot = high_command
-			ledger = army
-			allowed = {
-				original_tag = ITA
-			}
-			available = {
-				has_completed_focus = ITA_reform_the_arditi
-			}
-			traits  = {
-				army_commando_3 
-			}
-			cost = 150
-			ai_will_do = {
-				factor = 1
-			}
-		}
-		
-		corps_commander={
-			traits={ commando }
-			skill=6
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=0
-		}
-	}
+	
 
 	ITA_rodolfo_graziani={
 		name=ITA_rodolfo_graziani
@@ -476,24 +438,6 @@ characters={
 		}
 	}
 
-	ITA_dz1={
-		name=ITA_dz1
-		portraits={
-			army={
-				large=GFX_portrait_ITA_dz1
-				small=GFX_portrait_ITA_dz1_small
-			}
-		}
-		navy_leader={
-			traits={ aviation_enthusiast blockade_runner }
-			skill=6
-			attack_skill=1
-			defense_skill=1
-			maneuvering_skill=1
-			coordination_skill=1
-			legacy_id=-1
-		}
-	}
 
 	ITA_carlo_bergamini={
 		name=ITA_carlo_bergamini

@@ -789,28 +789,8 @@ characters={
 			legacy_id=-1
 		}
 	}
-	USA_Furitenman={
-	        name=USA_Furitenman
-	        portraits={
-	            army={
-	                small="gfx/interface/ideas/idea_furitenman.dds"
-	            }
-	            army={
-	                large="gfx/leaders/USA/portrait_usa_furitenman.dds"
-	            }
-	        }
-	        
-	       corps_commander = {
-	            traits = { substance_addict substance_abuser naval_invader old_guard commando skirmisher reassigned }
-	            skill = 4
-	            attack_skill = 4
-	            defense_skill = 3
-	            planning_skill = 4
-	            logistics_skill = 3
-	            legacy_id = -1
-	        }
-
-	    }
+	
+	
 	USA_chester_w._nimitz={
 		name="Chester W. Nimitz"
 		advisor={

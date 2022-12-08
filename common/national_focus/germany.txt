@@ -6066,8 +6066,7 @@ focus_tree = {
 				}
 			}
 			add_ideas = GER_plan_z
-			custom_effect_tooltip = available_chief_of_navy
-			show_ideas_tooltip = GER_henrik
+
 		}
 	}
 	

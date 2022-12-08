@@ -122,7 +122,6 @@ recruit_character = SOV_yakov_cherevichenko
 recruit_character = SOV_yakov_smushkevich
 
 recruit_character = SOV_vitaly_primakov
-recruit_character = SOV_lava
 #Not available at game start
 #recruit_character = SOV_vasily_korzh
 #recruit_character = SOV_sidor_kovpak

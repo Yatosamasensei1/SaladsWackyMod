@@ -329,7 +329,6 @@ recruit_character = ENG_arthur_harris
 recruit_character = ENG_james_chadwick
 recruit_character = ENG_frank_whittle
 recruit_character = ENG_jfc_fuller
-recruit_character = ENG_Heathy
 
 
 

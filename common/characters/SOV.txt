@@ -1074,29 +1074,7 @@ characters = {
 			  visible = { NOT = { has_character_flag = SOV_exiled_flag } }
 		  }
 	  }
-	  SOV_Lava={
-	         name=SOV_Lava
-	         portraits={
-	             army={
-	                 small="gfx/interface/ideas/idea_lava.dds"
-	             }
-	             army={
-	                 large="gfx/leaders/SOV/portrait_sov_lava.dds"
-	             }
-	         }
-	         
-	        corps_commander = {
-	             traits = { media_personality substance_addict substance_abuser skilled_staffer old_guard disgruntled trait_SOV_cowed_by_stalin_army }
-	             skill = 6
-	             attack_skill = 5
-	             defense_skill = 5
-	             planning_skill = 5
-	             logistics_skill = 5
-	             legacy_id = -1
-	             visible = { NOT = { has_character_flag = SOV_exiled_flag } }
-	         }
-
-	     }
+	  
   
   ######################
   #### NAVY LEADRES ####
