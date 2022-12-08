@@ -40,3 +40,4 @@ List of all updates to TFB
 - Made the Italian general "Enrico Frattini" a level 4 general and updated his stats to reflect this update
 - Removed all Discardian "unique" general characters
 - Made the event notification sound far more annoying
+- Replaced cringe opening soundtrack with Hell March
