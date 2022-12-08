@@ -37,3 +37,5 @@ List of all updates to TFB
 - Buffed Assault Pioneers company to pre Basement TFB values
 - Soviet air changes from Basement reverted
 - Finland core stats and manpower bug fix
+- Made the Italian general "Enrico Frattini" a level 4 general and updated his stats to reflect this update
+- Removed all Discardian "unique" general characters
