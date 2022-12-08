@@ -678,28 +678,6 @@ characters={
 		}
 	}
 
-    JAP_MRPANDA={
-        name=JAP_MRPANDA
-        portraits={
-            army={
-                small="gfx/interface/ideas/idea_mr_panda.dds"
-            }
-            army={
-                large="gfx/leaders/JAP/Portrait_Japan_Mr_Panda.dds"
-            }
-        }
-        
-        navy_leader={
-            traits={ substance_addict substance_abuser demoted battleship_adherent JAP_samurai_lineage naval_lineage ironside craven }
-            skill=4
-            attack_skill=4
-            defense_skill=4
-            maneuvering_skill=4
-            coordination_skill=4
-            legacy_id=-1
-        }
-
-    }
 
     JAP_AntonFJ={
             name=JAP_AntonFJ

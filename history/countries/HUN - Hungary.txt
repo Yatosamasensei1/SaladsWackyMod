@@ -115,7 +115,6 @@ recruit_character = HUN_jeno_ratz
 recruit_character = HUN_henrik_werth
 recruit_character = HUN_shvoy_kalman
 recruit_character = HUN_gyorgy_jendrassik
-recruit_character = HUN_discardpixel
 
 1939.1.1 = {
 	if = {

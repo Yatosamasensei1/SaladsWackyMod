@@ -621,27 +621,7 @@ characters={
 			legacy_id=998
 		}
 	}
-	ENG_Heathy={
-	    name=ENG_Heathy
-	    portraits={
-	        army={
-	            small="gfx/interface/ideas/idea_heathy.dds"
-	        }
-	        army={
-	            large="gfx/leaders/ENG/portrait_eng_heathy.dds"
-	        }
-	    }
-	    
-	    corps_commander={
-	        traits={ cookie game_master trait_GRE_stauch_monarchist disgruntled harsh_leader }
-	        skill=3
-	        attack_skill=3
-	        defense_skill=2
-	        maneuvering_skill=3
-	        coordination_skill=3
-	        legacy_id=-1
-	    }
-	}
+	
 	ENG_james_fownes_somerville={
 		name="James Fownes Somerville"
 		portraits={

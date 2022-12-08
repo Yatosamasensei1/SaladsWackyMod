@@ -651,28 +651,7 @@ characters={
 			legacy_id=35
 		}
 	}
-	GER_Atlan={
-	        name=GER_Atlan
-	        portraits={
-	            army={
-	                small="gfx/interface/ideas/idea_atlan.dds"
-	            }
-	            army={
-	                large="gfx/leaders/GER/portrait_ger_atlan.dds"
-	            }
-	        }
-	        
-	       corps_commander = {
-	            traits = { trait_GRE_fascist_sympathizer rp_meta_gamer demoted bavarian }
-	            skill = 3
-	            attack_skill = 3
-	            defense_skill = 2
-	            planning_skill = 3
-	            logistics_skill = 2
-	            legacy_id = -1
-	        }
-
-	    }
+	
 	GER_erich_raeder={
 		name=GER_erich_raeder
 		portraits={
@@ -879,40 +858,8 @@ characters={
 			}
 		}
 	}
-	GER_henrik={
-		name="Henrik"
-		portraits={
-			army={
-				small="gfx/interface/ideas/idea_henrik.dds"
-			}
-			army={
-				large="gfx/leaders/GER/portrait_ger_henrik.dds"
-			}
-		}
-		navy_leader={
-			traits={ navy_career_officer spotter }
-			skill=10
-			attack_skill=1
-			defense_skill=1
-			maneuvering_skill=1
-			coordination_skill=1
-			legacy_id=-1
-		}
-		advisor={
-			idea_token = GER_henrik
-			slot = navy_chief
-			allowed = {
-				original_tag = GER
-				has_completed_focus = GER_plan_z
-			}
-			traits  = {
-				navy_anti_submarine_3 
-			}
-			cost = 150
-			ai_will_do = {
-				factor = 0.1
-			}
-		}
+	
+		
 	}
 	GER_alfred_saalwächter={
 		name="Alfred Saalwächter"

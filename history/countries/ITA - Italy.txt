@@ -187,8 +187,6 @@ recruit_character = ITA_guiseppe_fioravanzo
 recruit_character = ITA_amedeo_mecozzi
 recruit_character = ITA_renato_sandalli
 recruit_character = ITA_gaetano_crocco
-recruit_character = ITA_dz1
-recruit_character = ITA_aludose
 
 create_equipment_variant = {
 	name = "L3/33"

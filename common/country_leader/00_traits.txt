@@ -3274,6 +3274,7 @@ leader_traits = {
 
 		democratic_drift = 0.1
 		stability_factor = 0.15
+		stability_weekly = 0.001
 		
 		ai_will_do = {
 			factor = 1
@@ -3299,6 +3300,7 @@ leader_traits = {
 
 		communism_drift = 0.1
 		consumer_goods_factor = -0.05
+		stability_weekly = 0.001
 		
 		ai_will_do = {
 			factor = 1
