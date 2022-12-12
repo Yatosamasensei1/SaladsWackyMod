@@ -36,9 +36,9 @@ equipments = {
 		
 		build_cost_ic = 11
 		resources = {
-			steel = 30
+			steel = 25
 			#oil = 1
-			rubber = 20
+			rubber = 10
 		}
 		
 		fuel_consumption = 2.4
