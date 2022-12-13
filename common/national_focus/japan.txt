@@ -1500,7 +1500,7 @@
 				target = RAJ
 				type = annex_everything
 			}
-			create_wargoal = {
+			declare_war_on = {
 				target = CAN
 				type = annex_everything
 			}
@@ -1530,7 +1530,7 @@
 					}
 				}	
 			}
-			create_wargoal = {
+			declare_war_on = {
 				target = FRA
 				type = annex_everything
 			}
