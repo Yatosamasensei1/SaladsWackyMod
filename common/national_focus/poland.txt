@@ -196,7 +196,7 @@
 		cost = 5
 
 		ai_will_do = {
-			factor = 5
+			factor = 10
 		}
 
 		available = {
@@ -241,6 +241,7 @@
 						size > 0
 						include_locked = yes
 					}
+					is_owned_and_controlled_by = ROOT
 				}
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
@@ -258,6 +259,7 @@
 						size > 0
 						include_locked = yes
 					}
+					is_owned_and_controlled_by = ROOT
 				}
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
@@ -285,7 +287,7 @@
 		cost = 10
 
 		ai_will_do = {
-			factor = 5
+			factor = 10
 		}
 
 		available = {
@@ -352,7 +354,7 @@
 		x = 0
 		y = 1
 		relative_position_id = POL_start_central_industrial_region
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 10
@@ -445,11 +447,9 @@
 		available = {
 			
 			762 = {
-				owner = {
-					OR = {
-						tag = ROOT
-						is_subject_of = ROOT
-					}
+				owns_or_subject_of = yes
+				controller = {
+					tag = PREV.OWNER
 				}
 			}
 		}
@@ -464,12 +464,12 @@
 			}
 			add_resource = {
 				type = steel
-				amount = 240
+				amount = 24
 				state = 762
 			}
 			add_resource = {
 				type = aluminium
-				amount = 120
+				amount = 12
 				state = 762
 			}
 		}
@@ -492,7 +492,7 @@
 		x = 4
 		y = 1
 		relative_position_id = POL_expansion_of_new_towns
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 10
@@ -577,7 +577,7 @@
 		prerequisite = { focus = POL_the_four_year_plan }
 		x = 0
 		y = 1
-		cost = 5 #maybe 20?
+		cost = 10 #maybe 20?
 
 		ai_will_do = {
 			factor = 10
@@ -1141,7 +1141,7 @@
 		cost = 10
 
 		ai_will_do = {
-			factor = 5
+			factor = 10
 		}
 
 		available = {
@@ -1608,10 +1608,6 @@
 
 		available_if_capitulated = yes
 
-		bypass = {
-			has_capitulated = yes
-		}
-
 		complete_tooltip = {
 			random_state = {
 				limit = { has_state_flag = POL_air_base_expansion_1 }
@@ -1891,6 +1887,7 @@
 				}
 			}
 		}
+		available = { is_subject = no }
 
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY }
@@ -1994,7 +1991,7 @@
 			if = {
 				limit = {
 					has_country_leader = {
-						name = "Ignacy Mościcki"
+						character = POL_ignacy_moscicki
 						ruling_only = yes
 					}
 				}
@@ -2110,7 +2107,7 @@
 		completion_reward = {
 			POL_sanation_left_opposition_down = yes 
 			POL_sanation_right_opposition_down = yes
-			random_state = {
+			random_owned_controlled_state = {
 				prioritize = { 89 }
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
@@ -2371,6 +2368,7 @@
 		cost = 5
 		
 		available = {
+			has_government = neutrality
 		}
 
 		ai_will_do = {
@@ -2577,6 +2575,7 @@
 		cost = 10
 		
 		available = {
+			has_government = neutrality
 		}
 
 		ai_will_do = {
@@ -4086,6 +4085,12 @@
 				limit = {
 					94 = {
 						owns_or_subject_of = yes
+						controller = {
+							OR = {
+								tag = ROOT
+								is_subject_of = ROOT
+							}
+						}
 					}
 				}
 				94 = {
@@ -4104,6 +4109,12 @@
 				limit = {
 					95 = {
 						owns_or_subject_of = yes
+						controller = {
+							OR = {
+								tag = ROOT
+								is_subject_of = ROOT
+							}
+						}
 					}
 				}
 				95 = {
@@ -4122,6 +4133,12 @@
 				limit = {
 					96 = {
 						owns_or_subject_of = yes
+						controller = {
+							OR = {
+								tag = ROOT
+								is_subject_of = ROOT
+							}
+						}
 					}
 				}
 				96 = {
@@ -4154,6 +4171,20 @@
 
 		available = {
 			NOT = { has_completed_focus = POL_complete_plan_east }
+			OR = {
+				91 = {
+					owns_or_subject_of = yes
+					controller = {
+						tag = PREV.OWNER
+					}
+				}
+				93 = {
+					owns_or_subject_of = yes
+					controller = {
+						tag = PREV.OWNER
+					}
+				}
+			}
 		}
 		
 		bypass = {
@@ -4182,6 +4213,12 @@
 				limit = {
 					91 = {
 						owns_or_subject_of = yes
+						controller = {
+							OR = {
+								tag = ROOT
+								is_subject_of = ROOT
+							}
+						}
 					}
 				}
 				91 = {
@@ -4200,6 +4237,12 @@
 				limit = {
 					93 = {
 						owns_or_subject_of = yes
+						controller = {
+							OR = {
+								tag = ROOT
+								is_subject_of = ROOT
+							}
+						}
 					}
 				}
 				93 = {
@@ -4326,6 +4369,27 @@
 		}
 	}
 
+	focus = {
+		id = POL_sabotage_polish_industry
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = POL_plan_east focus = POL_plan_west }
+		x = 1
+		y = 2
+		relative_position_id = POL_plan_east
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		
+		search_filters = {  } 
+		completion_reward = {
+			custom_effect_tooltip = sabotaged_industry_tt
+			#will trigger an event each time a Polish state is occupied by the enemy that sabotages industry
+		}
+	}
+
 	###############
 	###DIPLOMACY###
 	###############
@@ -4381,6 +4445,7 @@
 		}
 		
 		available = {
+			is_subject = no 
 			any_other_country = {
 				NOT = { has_war_with = ROOT }
 				is_faction_leader = yes
@@ -4532,6 +4597,7 @@
 		}
 		
 		available = {
+			is_subject = no 
 			LIT = { 
 				exists = yes
 				has_capitulated = no
@@ -4588,6 +4654,7 @@
 			factor = 10
 		}
 		available = {
+			is_subject = no 
 			is_in_faction = yes
 			LIT = { 
 				exists = yes
@@ -4681,7 +4748,17 @@
 			factor = 10
 		}
 
+		bypass = {
+			ROOT = {
+				controls_state = 814
+				controls_state = 11
+				controls_state = 815
+				controls_state = 189
+				controls_state = 784
+			}			
+		}
 		available = {
+			is_subject = no 
 			LIT = { 
 				exists = yes
 				has_capitulated = no
@@ -5550,6 +5627,42 @@
 			}
 		}
 	}
+
+	focus = {
+		id = POL_niech_zyje_opor
+		icon = GFX_focus_POL_resistance
+		prerequisite = { focus = POL_expand_polish_intelligence }
+		available = {
+			has_intelligence_agency = yes
+			has_capitulated = yes
+		}
+
+		x = 0
+		y = 1
+		relative_position_id = POL_expand_polish_intelligence
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		search_filters = {  }
+		completion_reward = {
+			gain_random_agency_upgrade = yes
+			custom_effect_tooltip = unlock_warsaw_uprising_tt
+			hidden_effect = {
+				every_enemy_country = { #Alert Germany/Sov that the Warsaw Uprising may happen
+					limit = {
+						core_resistance = {
+							occupied_country_tag = POL
+							value > 0
+						}
+					}
+					country_event = poland.26
+				}
+			}
+		}
+	}
 	
 	focus = {
 		id = POL_the_bombe
@@ -5558,10 +5671,10 @@
 		available = {
 		}
 
-		x = 2
+		x = 4
 		y = 1
 		relative_position_id = POL_expand_polish_intelligence
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 1
@@ -5586,10 +5699,10 @@
 		available = {
 		}
 
-		x = 0
+		x = 2
 		y = 1
 		relative_position_id = POL_expand_polish_intelligence
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 1
@@ -5643,7 +5756,6 @@
 			}
 		}
 	}
-
 
 	####################
 	### NAVY SECTION ###
@@ -5778,6 +5890,13 @@
 
 		ai_will_do = {
 			factor = 10
+		}
+		available = {
+			any_owned_state = {
+				is_coastal = yes 
+				NOT = { state = 85 }
+				is_controlled_by = ROOT
+			}
 		}
 
 		available_if_capitulated = yes
@@ -5958,6 +6077,13 @@
 
 		ai_will_do = {
 			factor = 10
+		}
+		available = {
+			any_owned_state = {
+				is_coastal = yes 
+				NOT = { state = 85 }
+				is_controlled_by = ROOT
+			}
 		}
 
 		available_if_capitulated = yes
@@ -6309,4 +6435,4 @@
 		}
 	}
 
-}		
+}
