@@ -1,6 +1,6 @@
 characters={
 	GER_adolf_hitler={
-		name=GER_adolf_hitler
+		name="Kanye West"
 		portraits={
 			civilian={
 				large=GFX_portrait_GER_adolf_hitler
@@ -859,8 +859,6 @@ characters={
 		}
 	}
 	
-		
-	}
 	GER_alfred_saalwächter={
 		name="Alfred Saalwächter"
 		portraits={
