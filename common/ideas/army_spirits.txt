@@ -186,7 +186,7 @@ ideas = {
 			ledger = army
 			visible = { has_government = democratic }
 			modifier = {
-				experience_gain_army_factor = 0.3
+				experience_gain_army_factor = 0.15
 				army_advisor_cost_factor = -0.5
 			}
 			ai_will_do = {
@@ -199,7 +199,7 @@ ideas = {
 			visible = { has_government = communism }
 			modifier = {
 				pocket_penalty = -0.05
-				weekly_manpower = 500
+				weekly_manpower = 1500
 			}
 			ai_will_do = {
 				factor = 1
@@ -223,7 +223,8 @@ ideas = {
 			ledger = army
 			modifier = {
 				army_fuel_capacity_factor = 1.0
-				army_morale_factor = 0.06
+				army_morale_factor = 0.05
+				army_speed_factor = 0.05
 			}
 			ai_will_do = {
 				factor = 1
@@ -258,7 +259,7 @@ ideas = {
 			ledger = army
 			visible = { has_tech = mass_assault }
 			modifier = {
-				army_strength_factor = 0.15
+				army_strength_factor = 0.1
 			}
 			ai_will_do = {
 				factor = 1
@@ -274,6 +275,7 @@ ideas = {
 				tactic_overwhelming_fire_preferred_weight_factor = 1
 				attrition = -0.1
 				dig_in_speed_factor = 0.5
+				army_core_defence_factor = 0.03	
 			}
 			ai_will_do = {
 				factor = 1
