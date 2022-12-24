@@ -153,6 +153,9 @@ ideas = {
 				trait_engineer_xp_gain_factor = 0.5
 				dig_in_speed_factor = 0.15
 				railway_gun_bombardment_factor = 0.1
+				fort = {
+					attack = 0.1
+				 }
 			}
 			ai_will_do = {
 				factor = 1
@@ -300,7 +303,7 @@ ideas = {
 				tactic_infantry_charge_preferred_weight_factor = 1
 				intel_from_combat_factor = 0.25
 				recon_factor = 0.25
-				equipment_capture_factor = 0.05
+				equipment_capture = 0.05
 			}
 			ai_will_do = {
 				factor = 1

@@ -67,7 +67,7 @@ ideas = {
 		effective_training_programs_spirit = {
 			ledger = air
 			modifier = {
-				air_training_xp_gain_factor = 0.25
+				air_ace_generation_chance_factor = 0.5
 			}
 			ai_will_do = {
 				factor = 1

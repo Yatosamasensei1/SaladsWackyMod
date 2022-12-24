@@ -262,6 +262,7 @@ ideas = {
 				screening_without_screens = 0.2
 				naval_retreat_speed = 0.1
 				naval_retreat_chance = 0.1
+				ships_at_battle_start = 0.25
 			}
 			ai_will_do = {
 				factor = 1
