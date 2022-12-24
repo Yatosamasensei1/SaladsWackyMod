@@ -151,8 +151,8 @@ ideas = {
 			ledger = army
 			modifier = {
 				trait_engineer_xp_gain_factor = 0.5
-				dig_in_speed_factor = 0.25
-				railway_gun_bombardment_factor = 0.05
+				dig_in_speed_factor = 0.15
+				railway_gun_bombardment_factor = 0.1
 			}
 			ai_will_do = {
 				factor = 1
@@ -324,6 +324,7 @@ ideas = {
 			modifier = {
 				tactic_human_wave_tactics_preferred_weight_factor = 1
 				land_reinforce_rate = 0.05
+				pocket_penalty = -0.25
 			}
 			ai_will_do = {
 				factor = 1
